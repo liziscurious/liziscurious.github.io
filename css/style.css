@@ -1,7 +1,37 @@
-h1 {
-  color: SlateGrey;
-}
-
 * {
   font-family: 'Palanquin', sans-serif !important;
+}
+
+h1 {
+  color: #E6C79C;
+}
+
+a{
+  color: #E6C79C !important;
+}
+
+.navbar {
+  background-color: #5B1865;
+}
+
+.jumbotron {
+  background-color: #5688C7;
+  text-align: center;
+}
+
+#two {
+  background-color: #470024;
+}
+
+#three {
+  background-color: #2C5784;
+}
+
+.card {
+  width: 18rem;
+  margin: 20px;
+}
+
+.btn {
+  margin: 8px;
 }

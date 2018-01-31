@@ -4,31 +4,111 @@
   <!-- Required meta tags -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Liz Glanz | Web Developer</title>
 
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
   <link href="https://fonts.googleapis.com/css?family=Palanquin:200" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
-
-  <script type="text/javascript" src="js/app.js"></script>
-
-  <base href="/" target="_blank">
-
-  <title>Liz Glanz | Web Developer</title>
+  <!-- <script type="text/javascript" src="js/app.js"></script> -->
 </head>
 <body>
-  <div class="container">
-    <h1>Liz Glanz | Web Developer</h1>
+  <div>
 
-    <nav class="nav flex-column">
-      <a class="nav-link active" href="https://github.com/liziscurious">GitHub</a>
-      <a class="nav-link" href="https://liziscurious.github.io/congenial-ghost/">21 Fun: A JavaScript BlackJack Game</a>
-      <a class="nav-link" href="https://teapot-wonder-dome.herokuapp.com/">Teapot Wonder Dome: First Full-Stack App</a>
-      <a class="nav-link" href="https://earworm.herokuapp.com/">Earworm: MEAN Stack</a>
-      <a class="nav-link" href="https://awesome-dinner-and-movie.herokuapp.com/">Dinner and a Movie: Angular Front End with Ruby on Rails API</a>
-      <a class="nav-link" href="https://skincare-log.herokuapp.com/">Skincare Log: Angular Front End with Ruby on Rails and JWT User Authentication</a>
-      <a class="nav-link" href="https://www.linkedin.com/in/lizglanz/">LinkedIn</a>
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="navbar-collapse collapse" id="navbarTogglerDemo01">
+        <a class="navbar-brand" href="#">Liz Glanz | Web Developer</a>
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#projects">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="srcs/resume.pdf" target="_blank">Resume</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="mailto:liz@lizglanz.com" target="_blank">Contact</a>
+          </li>
+        </ul>
+        <a class="nav-link" href="https://github.com/liziscurious" target="_blank">GitHub</a>
+        <a class="nav-link" href="https://www.linkedin.com/in/lizglanz/" target="_blank">LinkedIn</a>
+      </div>
     </nav>
+
+    <div class="jumbotron">
+      <h1>Liz Glanz | Web Developer</h1>
+    </div>
+
+    <div id="projects" class="container">
+      <div class="row">
+
+        <div class="col-sm-6">
+          <div class="card">
+            <img src="srcs/skincare-log.png" class="card-img-top" alt="Card image cap">
+            <div class="card-body">
+              <h5>Final Project: Angular Front End with Ruby on Rails API</h5>
+              <p>Skincare Log</p>
+              <a class="btn btn-primary" href="https://awesome-dinner-and-movie.herokuapp.com/" target="_blank">Live Site</a>
+              <a class="btn btn-primary" href="https://github.com/liziscurious/skincare-log-api">GitHub - API</a>
+              <a class="btn btn-primary" href="https://github.com/liziscurious/skincare-log" target="_blank">GitHub - Front End</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-6">
+          <div class="card">
+            <img src="srcs/21-fun.png" class="card-img-top" alt="Card image cap">
+            <div class="card-body">
+              <h5>First Project: JavaScript</h5>
+              <p>21 Fun - A Blackjack game</p>
+              <a class="btn btn-primary" href="https://liziscurious.github.io/congenial-ghost" target="_blank">Live Site</a>
+              <a class="btn btn-primary" href="https://github.com/liziscurious/congenial-ghost" target="_blank">GitHub</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-6">
+          <div class="card">
+            <img src="srcs/teapots.png" class="card-img-top" alt="Card image cap">
+            <div class="card-body">
+              <h5>First Full-Stack App: MEN Stack</h5>
+              <p>Teapot Wonderdome</p>
+              <a class="btn btn-primary" href="https://teapot-wonder-dome.herokuapp.com/" target="_blank">Live Site</a>
+              <a class="btn btn-primary" href="https://github.com/liziscurious/teapot-wonder-dome" target="_blank">GitHub</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-6">
+          <div class="card">
+            <img src="srcs/earworm.png" class="card-img-top" alt="Card image cap">
+            <div class="card-body">
+              <h5>Group Project: MEAN Stack</h5>
+              <p>Earworm</p>
+              <a class="btn btn-primary" href="https://earworm.herokuapp.com/" target="_blank">Live Site</a>
+              <a class="btn btn-primary" href="https://github.com/anth0nyj/earworm" target="_blank">GitHub</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-6">
+          <div class="card">
+            <img src="srcs/dinner-movie.png" class="card-img-top" alt="Card image cap">
+            <div class="card-body">
+              <h5>Group Project: Angular Front End with Ruby on Rails API</h5>
+              <p>Dinner and a Movie</p>
+              <a class="btn btn-primary" href="https://awesome-dinner-and-movie.herokuapp.com/" target="_blank">Live Site</a>
+              <a class="btn btn-primary" href="https://github.com/madsray/review_this_backend">GitHub - API</a>
+              <a class="btn btn-primary" href="https://github.com/madsray/review_this_frontend" target="_blank">GitHub - Front End</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
 
   </div>
 
