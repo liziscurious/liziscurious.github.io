@@ -35,3 +35,9 @@ a{
 .btn {
   margin: 8px;
 }
+
+#contact-links {
+  color: #E6C79C !important;
+  font-size: 1.6em;
+  margin: 8px;
+}
